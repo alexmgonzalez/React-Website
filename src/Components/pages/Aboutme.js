@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import '../../AboutMe.css'
+import me from '../../images/me.jpg';
 
 export default function AboutMe(){
     return(
@@ -33,7 +34,7 @@ export default function AboutMe(){
                     have for computers to your company. I look forward to
                     speaking to you about this opportunity.
                 </p>
-                <img className ='image-about' src='./images/me.jpg' alt='Me' />
+                <img className ='image-about' src={me} alt='Me' />
             </div>
         </>
     )

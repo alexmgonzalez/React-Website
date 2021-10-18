@@ -24,6 +24,11 @@
   .cards__items {
     margin-bottom: 24px;
   }
+  .cards__items2 {
+    margin-bottom: 24px;
+    display: table;
+    margin: 0 auto;
+  }
   
   .cards__item {
     display: flex;
@@ -31,7 +36,7 @@
     margin: 0 1rem;
     border-radius: 10px;
   }
-  
+
   .cards__item__link {
     display: flex;
     flex-flow: column;

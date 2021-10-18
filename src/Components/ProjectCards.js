@@ -1,6 +1,12 @@
 import React from 'react'
 import ProjectCardItem from './ProjectCardItem'
 import './Cards.css';
+import kmeans from '../images/kmeans.jpg';
+import dvp from '../images/DVP.jpg';
+import mips from '../images/mips.png';
+import kmeansdownload from '../kmeans.zip'
+import dvrdownload from '../dvr.zip'
+import mipsdownload from '../MIPS_Simulator.zip'
 
 function ProjectCards() {
     return (
@@ -10,26 +16,26 @@ function ProjectCards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <ProjectCardItem 
-                            src = "./images/kmeans.jpg"
+                            src = {kmeans}
                             text="Take a look at my resume to see how I could fit on your team"
                             label='K-Means'
-                            download='../kmeans.zip'
+                            download={kmeansdownload}
                             downloadLabel='kmeans.zip'
                         />
                         <ProjectCardItem 
-                            src = "./images/DVP.jpg"
+                            src = {dvp}
                             text="Check out some of my past Projects and see what I have done"
                             label='Simulator for Distance Vector Routing'
-                            download='../dvr.zip'
+                            download={dvrdownload}
                             downloadLabel='dvr.zip'
                         />
                     </ul>
-                    <ul className='cards__items'>
+                    <ul className='cards__items2'>
                         <ProjectCardItem 
-                            src = "./images/mips.png"
+                            src = {mips}
                             text="Take a look at my resume to see how I could fit on your team"
                             label='MIPS Simulator'
-                            download='../MIPS_Simulator.zip'
+                            download={mipsdownload}
                             downloadLabel='MIPS_Simulator.zip'
                         />
                     </ul>

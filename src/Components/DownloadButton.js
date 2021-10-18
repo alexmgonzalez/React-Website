@@ -1,6 +1,6 @@
 import React from 'react';
 import './Button.css';
-import { Link } from 'react-router-dom';
+import resume from '../resume.pdf'
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--blackoutline'];
 
@@ -20,7 +20,7 @@ export const DownloadButton = ({
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return(
-        <a href={'../resume.pdf'} download="resume.pdf">
+        <a href={resume} download="resume.pdf">
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
