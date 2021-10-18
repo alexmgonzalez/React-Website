@@ -10,14 +10,14 @@ function ProjectCards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <ProjectCardItem 
-                            src = "images/kmeans.jpg"
+                            src = "./images/kmeans.jpg"
                             text="Take a look at my resume to see how I could fit on your team"
                             label='K-Means'
                             download='../kmeans.zip'
                             downloadLabel='kmeans.zip'
                         />
                         <ProjectCardItem 
-                            src = "images/DVP.jpg"
+                            src = "./images/DVP.jpg"
                             text="Check out some of my past Projects and see what I have done"
                             label='Simulator for Distance Vector Routing'
                             download='../dvr.zip'
@@ -26,7 +26,7 @@ function ProjectCards() {
                     </ul>
                     <ul className='cards__items'>
                         <ProjectCardItem 
-                            src = "images/mips.png"
+                            src = "./images/mips.png"
                             text="Take a look at my resume to see how I could fit on your team"
                             label='MIPS Simulator'
                             download='../MIPS_Simulator.zip'
