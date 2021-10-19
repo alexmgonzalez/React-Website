@@ -33,7 +33,7 @@ function ProjectCards() {
                     <ul className='cards__items2'>
                         <ProjectCardItem 
                             src = {mips}
-                            text="Instruction-by-instruction simulator for a MIPS Processo"
+                            text="Instruction-by-instruction simulator for a MIPS Processor"
                             label='MIPS Simulator'
                             download={mipsdownload}
                             downloadLabel='MIPS_Simulator.zip'
