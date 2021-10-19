@@ -24,7 +24,7 @@ function ProjectCards() {
                         />
                         <ProjectCardItem 
                             src = {dvp}
-                            text="Simulation of Distance Vector Routing"
+                            text="Simulation of Distance Vector Routing for a given network"
                             label='Distance Vector Routing'
                             download={dvrdownload}
                             downloadLabel='dvr.zip'
