@@ -25,7 +25,7 @@ function ProjectCards() {
                         <ProjectCardItem 
                             src = {dvp}
                             text="Simulation of Distance Vector Routing"
-                            label='Instruction-by-instruction simulator for a MIPS Processor'
+                            label="Distance Vector Routing"
                             download={dvrdownload}
                             downloadLabel='dvr.zip'
                         />
@@ -33,7 +33,7 @@ function ProjectCards() {
                     <ul className='cards__items2'>
                         <ProjectCardItem 
                             src = {mips}
-                            text="MIPS Simulator displaying the "
+                            text="Instruction-by-instruction simulator for a MIPS Processor"
                             label='MIPS Simulator'
                             download={mipsdownload}
                             downloadLabel='MIPS_Simulator.zip'
