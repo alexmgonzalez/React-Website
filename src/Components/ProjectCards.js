@@ -17,15 +17,15 @@ function ProjectCards() {
                     <ul className='cards__items'>
                         <ProjectCardItem 
                             src = {kmeans}
-                            text="Take a look at my resume to see how I could fit on your team"
+                            text="Simulation of the K-Means Algorithm for clustering"
                             label='K-Means'
                             download={kmeansdownload}
                             downloadLabel='kmeans.zip'
                         />
                         <ProjectCardItem 
                             src = {dvp}
-                            text="Check out some of my past Projects and see what I have done"
-                            label='Simulator for Distance Vector Routing'
+                            text="Simulation of Distance Vector Routing"
+                            label='Instruction-by-instruction simulator for a MIPS Processor'
                             download={dvrdownload}
                             downloadLabel='dvr.zip'
                         />
@@ -33,7 +33,7 @@ function ProjectCards() {
                     <ul className='cards__items2'>
                         <ProjectCardItem 
                             src = {mips}
-                            text="Take a look at my resume to see how I could fit on your team"
+                            text="MIPS Simulator displaying the "
                             label='MIPS Simulator'
                             download={mipsdownload}
                             downloadLabel='MIPS_Simulator.zip'
