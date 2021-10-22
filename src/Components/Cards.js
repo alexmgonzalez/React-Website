@@ -10,7 +10,7 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem 
-                            src = "images/resume.jpg"
+                            src = "images/resume2.jpg"
                             text="Take a look at my resume to see how I could fit on your team"
                             label='Resume'
                             path='/resume'
