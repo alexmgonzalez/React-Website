@@ -10,8 +10,8 @@ export default function Resume(){
                 <div className="resume-btn">
                     <DownloadButton 
                         className='btns' 
-                        buttonStyle='btn--blackoutline'
-                        buttonSize='btn--large--download'
+                        buttonStyle='btn--outline'
+                        buttonSize='btn--large'
                     >
                         CLICK TO DOWNLOAD RESUME
                     </DownloadButton>
