@@ -13,7 +13,7 @@ function HeroSection() {
                 <Button 
                     className='btns' 
                     buttonStyle='btn--outline'
-                    buttonSize='btn--large'
+                    buttonSize='btn-large'
                 >
                     ABOUT ME
                 </Button>
