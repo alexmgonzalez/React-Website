@@ -4,7 +4,7 @@ function ProjectCardItem(props) {
     return (
         <>
             <li className='cards__items'>
-                <a href={props.download} download={props.downloadLabel}>
+                <a className = 'cards__item__link' href={props.download} download={props.downloadLabel}>
                     <figure className = 'cards__item__pic-wrap' data-category={props.label}>
                         <img src = {props.src} alt='image' className = 'cards__item__img'/>
                     </figure>
