@@ -34,8 +34,7 @@ export default function AboutMe(){
                     <p>
                         If given the opportunity to work for your company, I am confident that I
                         can support your team and bring the same enthusiasm I
-                        have for computers to your company. I look forward to
-                        speaking to you about this opportunity.
+                        have for computers to your company. Feel free to reach out to me at alexmgonzalez99@gmail.com.
                     </p>
                 </div>
                 <img className ='image-about' src={me} alt='Me' />
