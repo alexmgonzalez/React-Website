@@ -11,7 +11,7 @@ export default function Resume(){
                     <DownloadButton 
                         className='btns' 
                         buttonStyle='btn--outline'
-                        buttonSize='btn-large'
+                        buttonSize='btn--large'
                     >
                         CLICK TO DOWNLOAD RESUME
                     </DownloadButton>
