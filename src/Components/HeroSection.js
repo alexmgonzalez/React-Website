@@ -1,22 +1,40 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { DownloadButton } from './DownloadButton';
 import './HeroSection.css';
+
 
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src="videos/video.mp4" autoPlay loop muted/>
             <h1>FOR HIRE</h1>
             <p>Computer Science Graduate</p>
             <div className="hero-btns">
-                <Button 
+                <DownloadButton 
                     className='btns' 
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
-                    ABOUT ME
-                </Button>
+                    RESUME
+                </DownloadButton>
+            </div>
+            <div className="social-media">
+            <a className="social-icon-link github"
+                href='https://github.com/alexmgonzalez'
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Github"
+            >
+                <i className="fab fa-github"></i>
+            </a>
+            <a className="social-icon-link linkedin"
+                href='https://www.linkedin.com/in/alexander-gonzalez99/'
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+            >
+                <i className="fab fa-linkedin"></i>
+            </a>
             </div>
         </div>
     );

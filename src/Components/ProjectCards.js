@@ -4,9 +4,6 @@ import './Cards.css';
 import kmeans from '../images/kmeans.jpg';
 import dvp from '../images/DVP.jpg';
 import mips from '../images/mips.png';
-import kmeansdownload from '../kmeans.zip'
-import dvrdownload from '../dvr.zip'
-import mipsdownload from '../MIPS_Simulator.zip'
 
 function ProjectCards() {
     return (
@@ -19,15 +16,13 @@ function ProjectCards() {
                             src = {kmeans}
                             text="Simulation of the K-Means Algorithm for clustering"
                             label='K-Means'
-                            download={kmeansdownload}
-                            downloadLabel='kmeans.zip'
+                            path = 'https://github.com/alexmgonzalez/kmeans-algorithm'
                         />
                         <ProjectCardItem 
                             src = {dvp}
                             text="Simulation of Distance Vector Routing for a network"
                             label='Distance Vector Routing'
-                            download={dvrdownload}
-                            downloadLabel='dvr.zip'
+                            path='https://github.com/alexmgonzalez/distance-vector-routing'
                         />
                     </ul>
                     <ul className='cards__items2'>
@@ -35,8 +30,7 @@ function ProjectCards() {
                             src = {mips}
                             text="Instruction-by-instruction simulator for a MIPS Processor"
                             label='MIPS Simulator'
-                            download={mipsdownload}
-                            downloadLabel='MIPS_Simulator.zip'
+                            path = 'https://github.com/alexmgonzalez/mips-simulator'
                         />
                     </ul>
                 </div>

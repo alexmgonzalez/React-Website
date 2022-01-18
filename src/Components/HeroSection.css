@@ -1,14 +1,4 @@
-video {
-    object-fit: cover;
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index:-1;
-}
-
 .hero-container{
-    /*background: url('images/home.jpg') center center/cover no-repeat;*/
     height: 100vh;
     width: 100%;
     display: flex;
@@ -17,6 +7,12 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
+    /*paralax*/
+    background: url('../images/home.jpg') center center/cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero-container >h1 {
@@ -30,6 +26,23 @@ video {
     color: white;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social-media{
+    padding-top: 10px;
+    color:#000;
+    font-size: 32px;
+    max-width: 1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
 }
 
 .hero-btns {
