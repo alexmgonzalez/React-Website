@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/React-Website/static/css/main.e20bd71e.chunk.css",
-    "main.js": "/React-Website/static/js/main.02b2eaba.chunk.js",
-    "main.js.map": "/React-Website/static/js/main.02b2eaba.chunk.js.map",
+    "main.css": "/React-Website/static/css/main.12f1d173.chunk.css",
+    "main.js": "/React-Website/static/js/main.d834dc50.chunk.js",
+    "main.js.map": "/React-Website/static/js/main.d834dc50.chunk.js.map",
     "runtime-main.js": "/React-Website/static/js/runtime-main.5bdbac3d.js",
     "runtime-main.js.map": "/React-Website/static/js/runtime-main.5bdbac3d.js.map",
-    "static/js/2.0a8e14b7.chunk.js": "/React-Website/static/js/2.0a8e14b7.chunk.js",
-    "static/js/2.0a8e14b7.chunk.js.map": "/React-Website/static/js/2.0a8e14b7.chunk.js.map",
+    "static/js/2.22aa8ba3.chunk.js": "/React-Website/static/js/2.22aa8ba3.chunk.js",
+    "static/js/2.22aa8ba3.chunk.js.map": "/React-Website/static/js/2.22aa8ba3.chunk.js.map",
     "index.html": "/React-Website/index.html",
-    "static/css/main.e20bd71e.chunk.css.map": "/React-Website/static/css/main.e20bd71e.chunk.css.map",
-    "static/js/2.0a8e14b7.chunk.js.LICENSE.txt": "/React-Website/static/js/2.0a8e14b7.chunk.js.LICENSE.txt",
+    "static/css/main.12f1d173.chunk.css.map": "/React-Website/static/css/main.12f1d173.chunk.css.map",
+    "static/js/2.22aa8ba3.chunk.js.LICENSE.txt": "/React-Website/static/js/2.22aa8ba3.chunk.js.LICENSE.txt",
     "static/media/DVP.13cce6d9.jpg": "/React-Website/static/media/DVP.13cce6d9.jpg",
-    "static/media/MIPS_Simulator.d9dade52.zip": "/React-Website/static/media/MIPS_Simulator.d9dade52.zip",
     "static/media/App.css": "/React-Website/static/media/resume.ae9153cb.jpg",
-    "static/media/dvr.b116d450.zip": "/React-Website/static/media/dvr.b116d450.zip",
+    "static/media/HeroSection.css": "/React-Website/static/media/home.6b42c716.jpg",
     "static/media/kmeans.709823c4.jpg": "/React-Website/static/media/kmeans.709823c4.jpg",
-    "static/media/kmeans.b4784744.zip": "/React-Website/static/media/kmeans.b4784744.zip",
     "static/media/me.7f4c30c2.jpg": "/React-Website/static/media/me.7f4c30c2.jpg",
     "static/media/mips.3e5abcf1.png": "/React-Website/static/media/mips.3e5abcf1.png",
-    "static/media/resume.5b20fb2c.pdf": "/React-Website/static/media/resume.5b20fb2c.pdf"
+    "static/media/resume.1af6f794.pdf": "/React-Website/static/media/resume.1af6f794.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.5bdbac3d.js",
-    "static/js/2.0a8e14b7.chunk.js",
-    "static/css/main.e20bd71e.chunk.css",
-    "static/js/main.02b2eaba.chunk.js"
+    "static/js/2.22aa8ba3.chunk.js",
+    "static/css/main.12f1d173.chunk.css",
+    "static/js/main.d834dc50.chunk.js"
   ]
 }
