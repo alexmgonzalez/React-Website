@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.footer-email{
+.footer-email {
     display: flex;
     flex-direction: column;
     justify-content: center;

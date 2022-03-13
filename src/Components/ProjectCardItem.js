@@ -1,20 +1,27 @@
-import React from 'react'
+import React from "react";
 
 function ProjectCardItem(props) {
     return (
         <>
-            <li className='cards__items'>
-                <a className = 'cards__item__link' href={props.path}>
-                    <figure className = 'cards__item__pic-wrap' data-category={props.label}>
-                        <img src = {props.src} alt='card image' className = 'cards__item__img'/>
+            <li className="cards__items">
+                <a className="cards__item__link" href={props.path}>
+                    <figure
+                        className="cards__item__pic-wrap"
+                        data-category={props.label}
+                    >
+                        <img
+                            src={props.src}
+                            alt="card image"
+                            className="cards__item__img"
+                        />
                     </figure>
-                    <div className='cards__item__info'>
-                        <h5 className='cards__item__text'>{props.text}</h5>
+                    <div className="cards__item__info">
+                        <h5 className="cards__item__text">{props.text}</h5>
                     </div>
                 </a>
             </li>
         </>
-    )
+    );
 }
 
-export default ProjectCardItem
+export default ProjectCardItem;

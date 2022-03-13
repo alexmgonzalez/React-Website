@@ -1,5 +1,5 @@
-:root{
-    --primary:#fff;
+:root {
+    --primary: #fff;
 }
 
 .btn {
@@ -34,14 +34,14 @@
     font-size: 20px;
 }
 
-.btn--medium:hover, 
+.btn--medium:hover,
 .btn--large:hover {
     background: #fff;
     color: #242424;
     transition: all 0.3s ease-out;
 }
 
-.btn--blackoutline{
+.btn--blackoutline {
     background-color: transparent;
     color: #242424;
     padding: 8px 20px;
@@ -63,12 +63,12 @@
 .resume-btn {
     margin: 32px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: contain;
 }
 
 resume-btn .btn {
-    margin:6px;
+    margin: 6px;
 }
