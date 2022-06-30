@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
+import top from "./top";
 
 function Cards() {
     return (
@@ -14,12 +15,14 @@ function Cards() {
                             text="Take a look at my resume to see how I could fit on your team"
                             label="Resume"
                             path="/resume"
+                            onClick={top}
                         />
                         <CardItem
                             src="images/projects.jpg"
                             text="Check out some of my past Projects and see what I have done"
                             label="Projects"
                             path="/projects"
+                            onClick={top}
                         />
                     </ul>
                 </div>
