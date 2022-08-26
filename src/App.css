@@ -1,66 +1,29 @@
 * {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-  font-family: 'PT Sans', sans-serif;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
 }
 
 html {
-  /* this makes sure the padding and the border is included in the box sizing */
-  box-sizing: border-box;
-  overflow-x: hidden;
+    /* this makes sure the padding and the border is included in the box sizing */
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 html body {
-  padding: 0;
-  margin: 0;
-  overflow-x: inherit;
+    padding: 0;
+    margin: 0;
+    overflow-x: inherit;
 }
 
 .home,
 .about-me,
 .resume,
-.projects{
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-.resume {
-  background-image: url('images/resume.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  object-fit: contain;
-}
-
-.resume-header{
-  font-size: 100px;
-}
-
-
-.about-me {
-  background-image: url('images/aboutme2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .projects {
-  background-image: url('images/project.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
 }
-

@@ -1,0 +1,17 @@
+.resume {
+    background-image: url("../../images/resume.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.resume-header {
+    font-size: 100px;
+}

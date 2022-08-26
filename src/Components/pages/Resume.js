@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css";
+import "./Resume.css";
 import { DownloadButton } from "../DownloadButton";
 
 export default function Resume() {
