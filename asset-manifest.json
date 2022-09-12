@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Website/static/css/main.92ba1c1f.chunk.css",
-    "main.js": "/React-Website/static/js/main.e5c21773.chunk.js",
-    "main.js.map": "/React-Website/static/js/main.e5c21773.chunk.js.map",
+    "main.js": "/React-Website/static/js/main.fc2fe796.chunk.js",
+    "main.js.map": "/React-Website/static/js/main.fc2fe796.chunk.js.map",
     "runtime-main.js": "/React-Website/static/js/runtime-main.5bdbac3d.js",
     "runtime-main.js.map": "/React-Website/static/js/runtime-main.5bdbac3d.js.map",
     "static/js/2.9deeaefe.chunk.js": "/React-Website/static/js/2.9deeaefe.chunk.js",
@@ -17,13 +17,15 @@
     "static/media/me.7f4c30c2.jpg": "/React-Website/static/media/me.7f4c30c2.jpg",
     "static/media/mips.3e5abcf1.png": "/React-Website/static/media/mips.3e5abcf1.png",
     "static/media/Projects.css": "/React-Website/static/media/project.16f55cac.jpg",
+    "static/media/projects2.1b336ad8.jpg": "/React-Website/static/media/projects2.1b336ad8.jpg",
     "static/media/resume.51a1b11d.pdf": "/React-Website/static/media/resume.51a1b11d.pdf",
-    "static/media/Resume.css": "/React-Website/static/media/resume.ae9153cb.jpg"
+    "static/media/Resume.css": "/React-Website/static/media/resume.ae9153cb.jpg",
+    "static/media/resume2.dbf3cd99.jpg": "/React-Website/static/media/resume2.dbf3cd99.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5bdbac3d.js",
     "static/js/2.9deeaefe.chunk.js",
     "static/css/main.92ba1c1f.chunk.css",
-    "static/js/main.e5c21773.chunk.js"
+    "static/js/main.fc2fe796.chunk.js"
   ]
 }
