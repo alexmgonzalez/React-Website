@@ -18,7 +18,7 @@ function Cards() {
                             onClick={top}
                         />
                         <CardItem
-                            src="images/projects.jpg"
+                            src="images/projects2.jpg"
                             text="Check out some of my past Projects and see what I have done"
                             label="Projects"
                             path="/projects"
